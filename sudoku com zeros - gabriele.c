@@ -200,11 +200,18 @@ int main() {
 
     /*da o resultado armazenado no vetor result*/
     for(i = 0; i < n; i++){
-        printf("\nInstancia %d\n", i+1);
-        if(result[i] == 0)
+        printf("Instancia %d\n", i+1);
+        if(result[i] == 0){
             printf("SIM\n");
+            printf("\n");
+        }
+           
         else
-            printf("NÃO\n");
+            if(result != 0){
+                printf("NAO\n");
+                printf("\n");
+        }
+            
     }
 
         
