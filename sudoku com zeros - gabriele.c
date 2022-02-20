@@ -207,7 +207,7 @@ int main() {
         }
            
         else
-            if(result != 0){
+            if(result[i] != 0){
                 printf("NAO\n");
                 printf("\n");
         }
